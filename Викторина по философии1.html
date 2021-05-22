@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head> 
+        <title>Викторина</title> 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+    </head>
+    <body>
+       <script>
+           let count = 0;
+           let answer1 = prompt('Кому из философов принадлежит понятие "сверхчеловек"? (Ответ с заглавной буквы)');
+                if (answer1 == 'Ницше') {
+                    count = count +1;
+                    alert('Правильно');
+                } else { 
+                    alert('Неправильно');
+                }
+            let answer2 = prompt('Как называют философов, стоявших у истоков зарождения философии?  (Ответ с заглавной буквы)');
+                if (answer2 == 'Досократики') {
+                    count = count +1;
+                    alert('Правильно');
+                } else {
+                    alert('Неправильно');
+                }
+            let answer3 = prompt('Как называется учение о морали? (Ответ с заглавной буквы)');
+                if (answer3 == 'Этика') {
+                    count = count +1;
+                     alert('Правильно');
+                } else {
+                    alert('Неправильно');
+                }
+                    alert('Количество правильных ответов ' + count);
+        </script>
+    </body>
+</html>
